@@ -1,0 +1,62 @@
+/*
+|----------------------------------------------------------
+|Global Styles
+|----------------------------------------------------------
+*/
+
+body, html {
+  height: 100%;
+}
+
+/*
+|----------------------------------------------------------
+|Login Styles
+|----------------------------------------------------------
+*/
+
+.form-login {
+  max-width: 300px;
+  padding: 19px 29px 29px;
+  margin: 0 auto 20px;
+  background-color: rgba(255,255,255,0.7);
+  border: 1px solid #e5e5e5;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+          box-shadow: 0 1px 2px rgba(0,0,0,.05);
+  margin-top: 40px;
+  position: relative;
+}
+.form-login .form-login-heading,
+.form-login .checkbox {
+  margin-bottom: 10px;
+}
+.form-login input[type="text"] {
+  font-size: 16px;
+  height: auto;
+  margin-bottom: 15px;
+  padding: 7px 9px;
+}
+
+.form-login .alert {
+  margin-top: 10px;
+}
+
+.login {
+  background: url(../img/login_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*height: 100%;*/
+}
+
+.loginFooter {
+  width: 100%;
+  text-align: center;
+  font-size: 11px;
+  color: #ccc;
+  position: absolute;
+  bottom: -7px;
+  left: 0px;
+}
